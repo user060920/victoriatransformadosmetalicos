@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>Victoria Transformados Metálicos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="agua.css">
+</head>
+
+<body>
+	
+	<header class="header">
+	 <div class="nav-container">
+	      <nav class="navigation">
+			<ul id="cabecera">
+			    <li>Victoria Transformados Metálicos, S.A.
+		        <li>968 42 70 51
+				<li>
+				 <a><img src="images/menu.png" width="25px"></a>
+				  <ul class="menu" id="menu">
+				    <li><a href="index.html"><strong>Inicio</strong></a></li>
+				    <li><a href="historia.html"><strong>Historia de la empresa</strong></a></li>
+				    <li><a href="horario.html"><strong>Horario</strong></a></li>
+				    <li><a href="productos.html"><strong>Productos</strong></a></li>
+				    <li><a href="envio.html"><strong>Envio</strong></a></li>
+				    <li><a href="contacto.html"><strong>Contacto</strong></a></li>
+				  </ul>
+				 
+			</ul id="cabecera">
+	  </nav>
+	 </div>
+	</header>
+		
+<main class="main">
+		
+ <img src="images/logo.bmp" width="200px">
+ 
+ 
+ <table class="tablageneral">
+  <tr>
+   <td class="imagenes">
+    <div class="slider">
+	 <ul>
+	  <li>
+       <img src="images/agua1sinedit.jpg">
+      </li>
+	  <li>
+        <img src="images/agua2.jpg">
+      </li>
+	  <li>
+       <img src="images/agua3.jpg">
+      </li>
+	  <li>
+       <img src="images/agua4.jpg">
+      </li>
+     </ul>
+	</div>
+   </td>
+   
+   <td> <table class="tablainf">
+    <tr>
+	 <td class="titulo"> Tubería para extracción de agua </td> 
+	</tr>
+	<tr>
+	 <td> -Tuberia con o sin soldadura y con vridas en un extremo. </td>
+	</tr>
+	<tr>
+	 <td> -Diámetro mínimo posible: 150mm. </td>
+	</tr>
+	<tr>
+	 <td> -Espesor desde 3mm hasta 25mm. </td>
+	</tr>
+	<tr>
+	 <td> -Longitud a petición del cliente. </td>
+	</tr>
+	<tr>
+	 <td> -Calidad de chapa: 5235JR </td>
+	</tr>
+	
+	<tr>
+	 <td class="material">
+	  <form>
+	  <select onChange=nav(this.value) name=combo1 class=menudespl width="200">
+	     <option value="agua.html"> Hierro </option>
+		 <option value="aguaacero316.html" selected> Acero inoxidable AISI 316-L </option>
+		 <option value="aguaacero304.html"> Acero inoxidable AISI 304-L </option>
+		</select>
+	 <p> 6.00€/kg </p>
+	</tr>
+	</form>
+	
+</table>
+</table>
+
+<script>
+function nav(value) {
+if (value != "") { location.href = value; }
+}
+</script>
+
+ </main>
+ 
+ 
+ <footer class="footer" id="footer">
+  <div class="footer">
+   <nav class="footer">
+     <img src="images/logosolo.png" id="logopie" width="55px"> 
+	 <ul id="pie">
+      <li> Ctra. Nac. 340, km. 612,5 - 30850 Totana (Región de Murcia), España
+	  <li> <strong>Tlf:</strong> 968 42 70 51
+	  <li> <strong>Fax:</strong> 968 419 227
+     </ul id="pie">	
+	</nav>
+   </div>
+ </footer>
+ 
+</body>
+  
+</html>
